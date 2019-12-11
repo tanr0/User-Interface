@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Oxygen';
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+header.navbar{
+	overflow: hidden;
+  	background-color: #6b5b95;
+  	position: fixed; 
+  	top: 0; 
+	width: 100%; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header{
+	margin:10px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+div.spacer{
+	height:100px; 
+}
+
+footer{
+	padding: 80px;
+}
+
+hr{
+	width: 90%;
+	height: 5px;
+	background:black;
+}
+
+p.copyright{
+	text-align: center;
+}
+
+a.intro{ 
+	display: inline-block;
+	color:#a2b9bc;
+	width:12%;
+}
+a.intro:hover{
+	background:#ff7b25;
+}
+img.logo {
+	display: inline-block;
+	width:12%;
+}
+
+div.container{
+	display: inline-block;
+	width:47%;
+	text-align: center;
+	padding:5px;
+}
+h1.motto{
+	font-size:60px;
+	text-align: center;
+	padding:20px;
+	margin:10px;
+}
+a.button{
+	display: inline-block;
+	text-align: center;
+	border: 2px solid black;
+	width: 20%;
+	padding: 5px;
+	backgroung:
+}
+a.button:hover{
+	background:#ff7b25;
+
+}
+
+div.wrapper{
+	display: inline-block;
+	width: 47%;
+	padding: 5px;
+}
+div.wrapper2{
+	display: inline-block;
+	width: 29%;
+	padding: 5px;
+	margin: 5px;  
+}
+div.code{
+	display:block;
+	text-align:center;
+}
+
+h3.subtitle{
+	display: inline-block;
+	text-align: left;
+}
+
+section{
+	padding-left:80px;
+	padding-right:80px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
